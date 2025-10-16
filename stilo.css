@@ -1,0 +1,59 @@
+body{
+    font-family:  cursive;
+    background-color: black;
+    color: rgba(227, 227, 227, 0.851);
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(89, 89, 89, 0.596);
+    margin: 10px;
+    border-radius: 2%;
+}
+
+p{
+    font-size: 30px;
+}
+
+section{
+    background-color: rgba(89, 89, 89, 0.596);
+    border-radius: 2% 2% 2% 2%;
+    margin: 20px 300px ;
+    padding: 1px;
+}
+
+img{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.gatos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/*butao*/
+.butao{
+    background-color: rgba(176, 50, 50, 0.596);
+    text-align: center;
+    padding: 10px;
+    margin: 5% 40% 2% 40%;
+}
+.p-butao{
+    font-size: 30px;
+    color: aliceblue;
+}
+#text-header{
+    font-size: 60px;
+}
+
+.butao:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}

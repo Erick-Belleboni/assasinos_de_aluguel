@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+
+
+<body>
+    <script>
+        catList = [
+            {
+                nome: "JOAO CARLOS",
+                texto: "extremamente agressivo",
+                preco: "R$ 20,00",
+                img: "cat0.png"
+            },
+            {
+                nome: "CLEBER",
+                texto: "muito fei kkkk",
+                preco: "R$ 00,01",
+                img: "cat1.png"
+            },
+            {
+                nome: "SABADO👍",
+                texto: "Disponivel para aluguel (somente aos sábados)",
+                preco: "R$ 149,99",
+                img: "cat2.png"
+            },
+            {
+                nome: "RAUL",
+                texto: "Tímido, opta por não falar",
+                preco: "R$ 62,85",
+                img: "cat3.png"
+            },
+            {
+                nome: "JUNINHO RUINDADE PURA😡",
+                texto: "Não pergunte o que ele faz aqui",
+                preco: "R$ 26.600,00",
+                img: "cat4.png"
+            },
+            {
+                nome: "RODOLFO",
+                texto: "Trabalha no setor administrativo",
+                preco: "R$ 50,00",
+                img: "cat5.png"
+            },
+            {
+                nome: "CHICO",
+                texto: "Atua na área da malandragem",
+                preco: "R$ 00,05",
+                img: "cat6.png"
+            },
+            {
+                nome: "JULIO-SENSEI",
+                texto: "LUTA MUAY-THAY E DEVORA CRIANÇAS",
+                preco: "R$ 1.000.000,00",
+                img: "cat7.png"
+            }
+        ]
+
+        for(let i=0; i<catList.length; i++){
+            const sectionCat = document.createElement("section");
+            const umCat = catList[i];
+
+            sectionCat.innerHTML = `
+            <header><h1>${umCat.nome}</h1></header>
+            <main class="gatos"><p>${umCat.texto}</p>
+            <img src="${umCat.img}">
+            <p>${umCat.preco}</p>
+            </main>
+            `
+            document.body.appendChild(sectionCat);
+        }
+
+    </script>
+    <a href="index.html">
+        <div class="butao">
+            <p class="p-butao">Voltar</p>
+        </div>
+    </a>
+</body>
+</html>
