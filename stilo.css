@@ -57,3 +57,7 @@ img{
 a{
     text-decoration: none;
 }
+
+#gato-especial:hover{
+    background-color: rgb(237, 231, 39);
+}
